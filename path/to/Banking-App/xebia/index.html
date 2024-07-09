@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal details</h1>
+        <div class="section">
+            <div class="box">
+                <div class="box-header">
+                    <h2>Personal information</h2>
+                    <button onclick="editInfo('personalInfo')">Edit information</button>
+                </div>
+                <div id="personalInfo">
+                    <p><strong>Name:</strong> <span>Shevon ANUSHA</span></p>
+                    <p><strong>Middle name:</strong> <span>Peter</span></p>
+                    <p><strong>Last name:</strong> <span>RAJARAKSA</span></p>
+                    <p><strong>Day of birth:</strong> <span>06/11/1980</span></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <h2>Home address</h2>
+                    <button onclick="editInfo('homeAddress')">Edit information</button>
+                </div>
+                <div id="homeAddress">
+                    <p><strong>Current address:</strong> <span>80 High Street</span></p>
+                    <p><strong>City:</strong> <span>St. Albans</span></p>
+                    <p><strong>State:</strong> <span>GB</span></p>
+                    <p><strong>Postcode:</strong> <span>AL3 8UE</span></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <h2>Contact details</h2>
+                    <button onclick="editInfo('contactDetails')">Edit information</button>
+                </div>
+                <div id="contactDetails">
+                    <p><strong>Email address:</strong> <span>anusha.pgry@publicisexpert.com</span></p>
+                    <p><strong>Mobile number:</strong> <span>+19552674667</span></p>
+                    <p><strong>Marketing preferences:</strong> <span>SMS, EMAIL</span></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <h2>Nationality & Tax residency</h2>
+                    <button onclick="editInfo('nationality')">Edit information</button>
+                </div>
+                <div id="nationality">
+                    <p><strong>Nationality/Citizenship:</strong> <span>United States</span></p>
+                    <p><strong>Tax residency:</strong> <span>United States (TIN: 098-75-6341)</span></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <h2>Employment details</h2>
+                    <button onclick="editInfo('employmentDetails')">Edit information</button>
+                </div>
+                <div id="employmentDetails">
+                    <p><strong>Employment status:</strong> <span>Part-time employed</span></p>
+                    <p><strong>Industry:</strong> <span>Accountancy</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
